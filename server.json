@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/faa-regulations",
+  "title": "Faa Regulations",
+  "description": "FAA Regulations MCP — US Federal Aviation Regulations (14 CFR, 'FARs').",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/faa-regulations",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-faa-regulations",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/faa-regulations/mcp"
+    }
+  ]
+}
